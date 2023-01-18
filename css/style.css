@@ -1,0 +1,31 @@
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #E0E1DD;
+  }
+
+  .main-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #E0E1DD;
+    font-size: 20px;
+    padding-right: 1290px;
+    padding-left: 20px;
+    padding-top: 10%;
+  }
+
+#nav {
+    background-color: #0D1B2A;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    position: fixed;
+    min-height: 85px;
+    width: 100%;
+    z-index: 500;
+    word-spacing: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
