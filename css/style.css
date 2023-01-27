@@ -52,7 +52,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuYSS2JlV9UE/v1/-1x-1.png') no-repeat center center/cover;
+  background: url('https://o.remove.bg/downloads/08d672b3-ab22-464b-8011-7609cbdcb9dc/mebtr-removebg-preview.png') no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
@@ -92,5 +92,32 @@
 
 #about {
   display: flex;
-  
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
 }
+
+#pic {
+  display: flex;
+}
+
+#pic img {
+  width: 575px;
+  height:400px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+
