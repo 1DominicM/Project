@@ -10,12 +10,12 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Interests</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#more">Education</a></li>
+            <li><a href="#more">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <section id="home">
@@ -41,10 +41,33 @@
     </section>
 
     <section id="portfolio">
-        <h1 class="headings">Portfolio</h1>
+        <h1 class="headings">My Work</h1>
         <div class="gallery">
-            <img src="" alt="">
+            <img src="img/Pimg1.jpg" alt="">
+            <img src="img/Pimg2.jpg" alt="">
+            <img src="img/Pimg3.jpg" alt="">
+            <img src="img/Pimg4.jpg" alt="">
+            <img src="img/Pimg5.jpg" alt="">
+            <img src="img/Pimg6.jpg" alt="">
         </div>
     </section>
+
+    <section id="more">
+        <h1>My Education</h1>
+        <p>I am in highschool.</p>
+        <h1>My Interests</h1>
+        <p>I like sleeping.</p>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact Me</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="text" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" row="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+
 </body>
 </html>
